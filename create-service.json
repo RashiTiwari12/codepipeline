@@ -1,9 +1,9 @@
 {
-    "taskDefinition": "ecs-demo:1",
-    "cluster": "arn:aws:ecs:us-east-1:629982420099:cluster/whiz2",
+    "taskDefinition": "ecs-demo:6",
+    "cluster": "arn:aws:ecs:us-east-1:756666464463:cluster/whiz2",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:629982420099:targetgroup/ECS-TG-1/cfae50410babd80f",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:756666464463:targetgroup/ECS-TG-1/28ba56f391742373",
             "containerName": "sample-website",
             "containerPort": 80
         }
@@ -17,13 +17,12 @@
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "subnets": [
-                "subnet-0f23c68f9f3f2504c",
-                "subnet-02d564bcb18d01444"
+                "subnet-010ba7094d670d6f8",
+                "subnet-010b0880cc68cfebc"
             ],
             "securityGroups": [
-                "sg-01f5851e7c99f0dde"
-            ],
-            "assignPublicIp": "ENABLED"
+                "sg-0b799765f830116ad"
+            ]
         }
     }
 }

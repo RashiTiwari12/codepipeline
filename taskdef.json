@@ -1,9 +1,9 @@
 {
-    "executionRoleArn": "arn:aws:iam::629982420099:role/ecsTaskExecutionRole",
+    "executionRoleArn": "arn:aws:iam::756666464463:role/ecsTaskExecutionRole",
     "containerDefinitions": [
         {
             "name": "sample-website",
-            "image": "629982420099.dkr.ecr.us-east-1.amazonaws.com/httpd",
+            "image": "httpd",
             "essential": true,
             "portMappings": [
                 {
